@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alfocaccia NBK</title>
+  <link rel="icon" type="image/x-icon" href="../Images/Alfonz_1.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+
+</head>
+<body class="MainPageBody">
+
+<div class="top">
+  <img src="../Images/AlfLogo.png" width="90px" height="45px"
+  >
+  <h1 class="heading">Alfocaccia</h1>
+
+  <div class="menu">
+    <a href="Main.html" style="text-decoration: underline;
+    text-decoration-thickness: 3px; text-underline-offset: 5px">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+  </div>
+</div>
+
+<div class="Main-body">
+
+  <div class="Main-text">
+    <div class="Main-text-inside">
+      <h1>Alfocaccia</h1>
+      <p class="Moto">The best place ever known, <br>where foccacia will be your 7th
+        heaven.</p>
+      <br>
+      <br>
+      <b>
+        <p class="address">Nymburk 2 CZ,<br> Kostelní 41,<br> 288 02 Nymburk</p>
+      </b>
+    </div>
+    <button class="Main-button" id="MainBtn">Menu</button>
+  </div>
+
+
+</div>
+
+<script>
+  const MenuButton = document.getElementById("MainBtn");
+
+  MenuButton.addEventListener("click", function (bClick){
+    if (bClick){
+      location.href = "Menu.html";
+    }
+  })
+</script>
+
+</body>
+</html>
